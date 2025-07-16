@@ -1,75 +1,58 @@
 # 🏁 Tugas Akhir (TA) - Final Project
 
-**Nama Mahasiswa**: [Nama Lengkap]  
-**NRP**: [Nomor Registrasi Pokok]  
-**Judul TA**: [Judul Tugas Akhir]  
-**Dosen Pembimbing**: [Nama Dosen]  
-**Dosen Ko-pembimbing**: [Nama Dosen]
-
+```
+Nama Mahasiswa     : HESEKIEL NAINGGOLAN  
+NRP                : 5025201054  
+Judul TA           : PENYELESAIN PERMASALAHAN SPOJ 7627 - DRIVING DIRECTION MENGGUNAKAN GEOMETRI KOMPUTASIONAL DAN ALGORITMA DIJKSTRA  
+Dosen Pembimbing   : Dr. Yudhi Purwananto, S.Kom., M.Kom.   
+Dosen Ko-pembimbing: Rully Soelaiman, S.Kom., M.Kom.
+```
 ---
 
 ## 📺 Demo Aplikasi  
-Embed video demo di bawah ini (ganti `VIDEO_ID` dengan ID video YouTube Anda):  
+  
 
-[![Demo Aplikasi](https://i.ytimg.com/vi/zIfRMTxRaIs/maxresdefault.jpg)](https://www.youtube.com/watch?v=VIDEO_ID)  
+[![Demo Aplikasi](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjbROFNO_F6RT_jFaMPHJQX-EyIdw-VoAuU7C5X_QVkKP3hCy8BG_WcOguV7W1LX55KwbPzJkJd4YN6fCwF0tsZgwYY5MsyTrljAT_Sb3rWrQbkINe7mgK69nNBIa-zHSGe-eUDeE2bQnlHMv74nV9Ezwr4v6QOVIqUcLftPYI-vp2iUo5uv2ZMv-5YUMo/s1126/images_Ow778s0W_5P49jL.jpg)](https://youtu.be/y5yPrM2lW-k?si=aJYpRn-RmtHAkSxa)  
 *Klik gambar di atas untuk menonton demo*
 
 ---
 
-*Konten selanjutnya hanya merupakan contoh awalan yang baik. Anda dapat berimprovisasi bila diperlukan.*
 
 ## 🛠 Panduan Instalasi & Menjalankan Software  
 
 ### Prasyarat  
 - Daftar dependensi (contoh):
-  - Python 3.10+
-  - Node.js v18+
-  - MySQL 8.0
-  - [Lainnya...]
+  - C++
+  - Compiler MinGW GCC 12.1.0
 
 ### Langkah-langkah  
 1. **Clone Repository**  
    ```bash
-   git clone https://github.com/Informatics-ITS/TA.git
+   git clone https://github.com/Informatics-ITS/ta-kielnaingggolan07.git
    ```
-2. **Instalasi Dependensi**
+2. **Jalankan Kode**
    ```bash
-   cd [folder-proyek]
-   pip install -r requirements.txt  # Contoh untuk Python
-   npm install  # Contoh untuk Node.js
+   ./SPOJ7627
    ```
-3. **Konfigurasi**
-- Salin/rename file .env.example menjadi .env
-- Isi variabel lingkungan sesuai kebutuhan (database, API key, dll.)
-4. **Jalankan Aplikasi**
+3. **Masukkan Input banyak penghalang(n), radius(r), koordinat lingkaran awal/tujuan((xt[0],yt[0]),(xt[1],yt[1])), dan koordinat penghalang((x0,y0),(x1,y1))**
+
+   Contoh:
    ```bash
-   python main.py  # Contoh untuk Python
-   npm start      # Contoh untuk Node.js
+      1 3
+   2 7 7 1
+   3 2 6 4
+   7 5 9 8
+   1 8 5 9
    ```
-5. Buka browser dan kunjungi: `http://localhost:3000` (sesuaikan dengan port proyek Anda)
-
----
-
-## 📚 Dokumentasi Tambahan
-
-- [![Dokumentasi API]](docs/api.md)
-- [![Diagram Arsitektur]](docs/architecture.png)
-- [![Struktur Basis Data]](docs/database_schema.sql)
-
----
-
-## ✅ Validasi
-
-Pastikan proyek memenuhi kriteria berikut sebelum submit:
-- Source code dapat di-build/run tanpa error
-- Video demo jelas menampilkan fitur utama
-- README lengkap dan terupdate
-- Tidak ada data sensitif (password, API key) yang ter-expose
+   Hasil:
+   ```bash
+   10.570796
+   ```
+5. Untuk menguji kebenaran kode, dapat mengirimkan kode ke halaman SPOJ 
 
 ---
 
 ## ⁉️ Pertanyaan?
 
 Hubungi:
-- Penulis: [email@mahasiswa]
-- Pembimbing Utama: [email@pembimbing]
+- Penulis: nainggolanhesekiel07@gmail.com
